@@ -1,6 +1,6 @@
-# Cleanfolio Minimal
+# Portfolio Minimal
 
-A clean and simple portfolio template built with plain HTML, CSS and JavaScript.
+A clean and simple portfolio built with plain HTML, CSS and JavaScript.
 
 ## Preview
 
