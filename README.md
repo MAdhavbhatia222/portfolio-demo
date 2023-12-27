@@ -4,9 +4,9 @@ A clean and simple portfolio built with plain HTML, CSS and JavaScript.
 
 ## Preview
 
-[![imgur](https://i.imgur.com/BGcTCm4.gif)](https://factsdrive.net/)
+[![imgur](https://i.imgur.com/BGcTCm4.gif)](https://madhavbhatia.com/)
 
-[See Live](https://factsdrive.net)
+[See Live](https://madhavbhatia.com)
 
 ## License
 
