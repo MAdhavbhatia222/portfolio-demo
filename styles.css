@@ -126,30 +126,41 @@ button {
   transition: all 0.2s ease-in; /* Smooth transition for all properties */
 }
 
-/* Remove the width from the general hover pseudo-element */
+/* Reset the general link hover effect */
 .link:hover::before,
 .link:focus::before {
-  content: "";
-  display: block;
-  height: 2px;
-  position: absolute;
-  bottom: -5px;
+  width: auto;
   left: 0;
-  background-color: var(--clr-primary);
-  transition: all 0.2s ease-in-out;
-  width: auto; /* Add this line to ensure the width is automatically adjusted */
+  transform: none;
 }
 
 /* Specific hover effect for icon links */
 .link--icon:hover::before,
 .link--icon:focus::before {
-  width: 100%; /* or you can set a specific width if you know the width of your icons */
-  left: 0; /* Center the line */
-  transform: translateX(0%); /* No need to translate as width is 100% */
+  content: "";
+  position: absolute;
+  width: 100%; /* Adjust this value if the underline is still too long */
+  height: 2px; /* Height of the underline */
+  bottom: 0; /* Distance from the bottom of the icon */
+  background-color: var(--clr-primary); /* Color of the underline */
+  transition: all 0.2s ease-in-out;
+  left: 50%; /* Start from the middle */
+  transform: translateX(-50%); /* Shift to the left by half of its own width */
 }
+
+/* Specific styles for buttons, if necessary to override */
+.btn--outline:hover::before,
+.btn--outline:focus::before {
+  width: 0; /* Or adjust as needed */
+  height: 0; /* Or adjust as needed */
+  content: none; /* This can remove the pseudo-element entirely for buttons */
+}
+
 
 /* Prevent wrapping for icon links */
 .link--icon {
+  color: var(--clr-fg);
+  font-size: 1.2rem;
   white-space: nowrap; /* Ensures the text does not wrap */
 }
 
