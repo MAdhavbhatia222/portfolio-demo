@@ -126,24 +126,33 @@ button {
   transition: all 0.2s ease-in; /* Smooth transition for all properties */
 }
 
-.link--icon:hover::before,
-.link--icon:focus::before {
-  content: "";
-  display: block;
-  width: calc(100% - 1em); /* Adjust the width as needed */
-  height: 2px; /* Adjust the thickness of the underline as needed */
-  position: absolute;
-  bottom: -5px; /* Adjust the distance from the bottom as needed */
-  left: 0.5em; /* Center the line relative to the text/icon */
-  background-color: var(--clr-primary);
-  transition: all 0.2s ease-in-out;
-}
-
-
+/* Remove the width from the general hover pseudo-element */
 .link:hover::before,
 .link:focus::before {
-  width: 100%;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--clr-primary);
+  transition: all 0.2s ease-in-out;
+  width: auto; /* Add this line to ensure the width is automatically adjusted */
 }
+
+/* Specific hover effect for icon links */
+.link--icon:hover::before,
+.link--icon:focus::before {
+  width: 100%; /* or you can set a specific width if you know the width of your icons */
+  left: 0; /* Center the line */
+  transform: translateX(0%); /* No need to translate as width is 100% */
+}
+
+/* Prevent wrapping for icon links */
+.link--icon {
+  white-space: nowrap; /* Ensures the text does not wrap */
+}
+
 
 .link--nav {
   color: var(--clr-fg);
@@ -151,11 +160,12 @@ button {
   font-weight: 500;
 }
 
-.link--icon {
+/* .link--icon {
   color: var(--clr-fg);
   font-size: 1.2rem;
   white-space: nowrap; /* Prevents the text inside the link from wrapping */
-}
+} 
+*/
 
 .btn {
   display: block;
