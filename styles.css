@@ -385,7 +385,22 @@ main {
 }
 
 .skills__list-item {
-  margin: 0.5em;
+  display: inline-block; /* Allows the element to have padding and behave like a button */
+  padding: 0.8em 1.4em; /* Provides space inside the element */
+  margin: 0.5em; /* Adds space around the element */
+  font-size: 0.9rem; /* Ensures text is appropriately sized */
+  background-color: var(--clr-bg-alt); /* Gives a background color */
+  border: 2px solid var(--clr-primary); /* Defines the border size and color */
+  box-shadow: var(--shadow); /* Applies a shadow if desired */
+  text-align: center; /* Centers the text inside the item */
+  min-width: 120px; /* Ensures a minimum width if needed */
+  cursor: pointer; /* Changes the cursor to signify it's clickable */
+  transition: all 0.2s ease-in-out; /* Smooth transition for interactions */
+}
+
+.skills__list-item:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Example hover effect */
+  transform: translateY(-2px); /* Slight lift effect on hover */
 }
 
 .contact {
