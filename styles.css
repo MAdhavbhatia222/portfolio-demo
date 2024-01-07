@@ -112,15 +112,25 @@ button {
   color: var(--clr-primary);
 }
 
-.link::before {
+.link--icon::before {
   content: "";
-  display: inline;
-  width: 0%;
-  height: 0.2em;
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto; /* Sets the width to the content size */
+  height: 0.2em;
   bottom: 0;
   background-color: var(--clr-primary);
   transition: width 0.2s ease-in;
+  display: block; /* Changed from inline to block */
+  transition: all 0.2s ease-in; /* Smooth transition for all properties */
+}
+
+.link--icon:hover::before,
+.link--icon:focus::before {
+  width: 100%; /* This will now be the width of the text */
+  left: 0;
+  transform: none; /* Remove the transform property */
 }
 
 .link:hover::before,
@@ -137,6 +147,7 @@ button {
 .link--icon {
   color: var(--clr-fg);
   font-size: 1.2rem;
+  white-space: nowrap; /* Prevents the text inside the link from wrapping */
 }
 
 .btn {
