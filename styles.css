@@ -144,7 +144,7 @@ button {
   padding: 0.8em 1.4em;
   font-weight: 500;
   font-size: 0.9rem;
-  text-transform: lowercase;
+  text-transform: capitalize; /* Updated from lowercase to capitalize */
   transition: transform 0.2s ease-in-out;
 }
 
@@ -265,9 +265,9 @@ main {
 
 .about__desc {
   font-size: 1rem;
-  max-width: 800px; /* Increased max-width for better center alignment */
-  margin: 0 auto; /* Center align the paragraph */
-  text-align: center; /* Center align the text */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Updated from center to left */
 }
 
 .about__desc,
