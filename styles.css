@@ -224,10 +224,15 @@ button {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  border: 0;
+  border: 0; /* Ensure there is no border that could be reducing the size */
+  padding: 0.8em 1.4em; /* Provide sufficient padding */
+  margin: 0.5em; /* Adjust margin if necessary */
+  font-size: 0.9rem; /* Adjust font size if necessary */
 }
 
 .btn--plain:hover {
+  padding: 0.8em 1.4em; /* Same padding as the normal state */
+  border: 0; /* Same border as the normal state */
   transform: translateY(-4px);
 }
 
