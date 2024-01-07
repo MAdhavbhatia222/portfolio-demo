@@ -128,10 +128,17 @@ button {
 
 .link--icon:hover::before,
 .link--icon:focus::before {
-  width: 100%; /* This will now be the width of the text */
-  left: 0;
-  transform: none; /* Remove the transform property */
+  content: "";
+  display: block;
+  width: calc(100% - 1em); /* Adjust the width as needed */
+  height: 2px; /* Adjust the thickness of the underline as needed */
+  position: absolute;
+  bottom: -5px; /* Adjust the distance from the bottom as needed */
+  left: 0.5em; /* Center the line relative to the text/icon */
+  background-color: var(--clr-primary);
+  transition: all 0.2s ease-in-out;
 }
+
 
 .link:hover::before,
 .link:focus::before {
