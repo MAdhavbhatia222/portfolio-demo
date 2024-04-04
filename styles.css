@@ -481,7 +481,14 @@ main {
 
 .substack-form {
   margin-top: 20px; /* Adjust the space between the Resume button and the form as needed */
-  text-align: center; /* This centers the iframe in its container */
-  display: flex;
-  justify-content: center; /* This ensures the iframe itself is centered within the .substack-form div */
+  display: block; /* This will ensure that the iframe appears on a new line, below the Resume button */
+  text-align: center; /* Centers the content of the block */
+}
+
+/* You can also apply a media query if you need to adjust the width of the iframe on smaller screens */
+@media (max-width: 480px) {
+  .substack-form iframe {
+    width: 100%; /* Makes the iframe full width on small screens */
+    height: auto; /* Adjust height as necessary */
+  }
 }
