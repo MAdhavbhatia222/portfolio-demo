@@ -478,3 +478,10 @@ main {
     display: none;
   }
 }
+
+.substack-form {
+  margin-top: 20px; /* Adjust the space between the Resume button and the form as needed */
+  text-align: center; /* This centers the iframe in its container */
+  display: flex;
+  justify-content: center; /* This ensures the iframe itself is centered within the .substack-form div */
+}
