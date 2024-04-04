@@ -322,6 +322,7 @@ main {
   max-width: 800px;
   margin: 0 auto;
   text-align: left; /* Updated from center to left */
+  margin-top: 2.4em;
 }
 
 .about__desc,
