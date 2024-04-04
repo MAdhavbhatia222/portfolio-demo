@@ -317,6 +317,13 @@ main {
   text-align: left; /* Updated from center to left */
 }
 
+.about__substack {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left; /* Updated from center to left */
+}
+
 .about__desc,
 .about__contact {
   margin-top: 2.4em;
