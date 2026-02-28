@@ -1,0 +1,38 @@
+# Madhav Bhatia — Analytics & Product Expert
+
+> Madhav Bhatia is a Customer Insights & Analytics professional with 7+
+> years of experience across LatentView Analytics and OYO. He holds a
+> Master of Science in Business Analytics (4.0 GPA) from the University
+> at Buffalo, SUNY, and certifications in Microsoft Fabric, Azure Data
+> Science, Power BI, and Google Analytics. He is a Certified
+> ScrumMaster (CSM) and co-inventor of a patented IoT-based industrial
+> energy monitoring system (issued 2023). His expertise spans A/B
+> testing, machine learning, NLP, marketing mix modeling, ETL pipeline
+> design, and cloud data engineering across Azure, AWS, and Oracle Cloud.
+
+## Projects
+
+- [Random Fact Joke Generator](https://github.com/MAdhavbhatia222/llm_projects/tree/main/Joke_Generator): Production-deployed LLM application — Flask API on Oracle Cloud for real-time content generation
+- [Anime Recommender System](https://github.com/MAdhavbhatia222/Anime_Recommender/tree/main): End-to-end ML pipeline — ETL (Talend), Oracle ADW, Docker, Oracle Compute
+- [EduTask](https://github.com/MAdhavbhatia222/Edutask_Chatgpt/tree/main): RAG application using LangChain, vector databases, and Unstructured API for syllabus intelligence
+- [MavenToys Dashboard](https://github.com/MAdhavbhatia222/Excel_Dashboards/tree/main): Multi-dimensional Excel dashboard for regional revenue and store performance analytics
+- [LinkedIn Data Analysis](https://github.com/MAdhavbhatia222/Linkedin_Scrap_Py/tree/main): Python web intelligence pipeline — Selenium, BeautifulSoup, NLTK for labor market NLP analysis
+- [Olympic Data Exploration](https://github.com/MAdhavbhatia222/SQL_Projects/blob/main/Olympic_Data_Exploration): Advanced SQL analysis with window functions across decades of Olympic data
+- [Credit Card Data Analysis](https://github.com/MAdhavbhatia222/SQL_Projects/blob/main/Credit_Card_Usage): SQL-driven financial analytics — transaction pattern analysis and consumer behavior insights
+
+## Certifications
+
+- Microsoft Certified: Fabric Analytics Engineer Associate
+- Microsoft Certified: Azure Data Scientist Associate
+- Microsoft Certified: Power BI Data Analyst Associate
+- Google Analytics Certification
+- Certified ScrumMaster (CSM)
+- Product Analytics Micro-Certification (Product School)
+
+## Links
+
+- Website: https://www.madhavbhatia.com
+- LinkedIn: https://www.linkedin.com/in/madhavbhatia/
+- GitHub: https://github.com/MAdhavbhatia222
+- Newsletter: https://datadrivendialect.substack.com/
+- Contact: mailto:madhav@madhavbhatia.com
