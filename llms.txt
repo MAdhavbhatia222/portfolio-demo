@@ -1,14 +1,16 @@
-# Madhav Bhatia — Analytics & Product Expert
+# Madhav Bhatia — Analytics Consultant | Product & Marketing
 
-> Madhav Bhatia is a Customer Insights & Analytics professional with 7+
-> years of experience across LatentView Analytics and OYO. He holds a
-> Master of Science in Business Analytics (4.0 GPA) from the University
-> at Buffalo, SUNY, and certifications in Microsoft Fabric, Azure Data
+> Madhav Bhatia is an Analytics Consultant for Product & Marketing at
+> LatentView Analytics, with 7+ years of experience driving data-informed
+> product and business decisions. He currently leads analytics delivery
+> for a Fortune 500 tech giant's Lifecycle Marketing team, integrating
+> AI-driven Databricks agents, Multi-Armed Bandit testing frameworks,
+> and orchestrating a Tableau-to-Power BI migration. He holds a Master
+> of Science in Business Analytics (4.0 GPA) from the University at
+> Buffalo, SUNY, and certifications in Microsoft Fabric, Azure Data
 > Science, Power BI, and Google Analytics. He is a Certified
 > ScrumMaster (CSM) and co-inventor of a patented IoT-based industrial
-> energy monitoring system (issued 2023). His expertise spans A/B
-> testing, machine learning, NLP, marketing mix modeling, ETL pipeline
-> design, and cloud data engineering across Azure, AWS, and Oracle Cloud.
+> energy monitoring system (issued 2023).
 
 ## Projects
 
